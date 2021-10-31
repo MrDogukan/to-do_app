@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: gold;
+    list-style: none;
+}
+body{
+    background-image: url(./img/0f4e9fbd946b8e0ae99838ada951-1591914.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    
+    
+    width: 50%;
+    min-height: 80vh;
+    margin: 2rem  auto;
+    
+    background-color:rgba(8, 8, 8, 0.527);
+    
+    
+}
+header{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2rem;
+}
+#logoto{
+    width: 20%;
+}
+.todolist{
+    text-align: center;
+    margin-top: 5%;
+}
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    min-width: 30% ;
+    width: 60%;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 20%;
+    border: 3px solid gold;
+    height: 3rem;
+    border-radius: 7rem;
+    align-items: center;
+    padding: 2%;
+    padding-right: 2%;
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+    background-color: rgb(12, 11, 11,0.6);
+    
+}
+.add{
+    text-align: center;
+    margin-top: 19rem;
+}
+.add-to-do{
+    width: 10%;
+    color: gold;
+    background-color: black ;
+    height: 2.5rem;
+    border: 3px solid gold;
+    border-radius: 1rem;
+}
+
+.form-control{
+    width: 30%;
+    color: gold;
+    background-color: black ;
+    height: 2.5rem;
+    border: 3px solid gold;
+    border-radius: 1rem;
+}
